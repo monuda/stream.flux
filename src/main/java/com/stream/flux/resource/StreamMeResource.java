@@ -15,7 +15,7 @@ import reactor.core.publisher.Flux;
 import reactor.util.function.Tuple2;
 
 @RestController
-@RequestMapping("/rest/stream/me")
+@RequestMapping("/rest/stream")
 public class StreamMeResource {
 
 	@GetMapping(value = "/everything", produces = MediaType.TEXT_EVENT_STREAM_VALUE)
